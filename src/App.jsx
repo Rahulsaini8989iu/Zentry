@@ -10,7 +10,7 @@ import Loader from "./components/loading";
 function App() {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
-      <Loader />   {/* yaha add kiya */}
+      <Loader />
       <NavBar />
       <Hero />
       <About />
@@ -23,4 +23,3 @@ function App() {
 }
 
 export default App;
-  

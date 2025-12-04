@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/img/loga2.png"; // apna logo
+import logo from "../assets/img/loga2.png";
 
 function Loader() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 4000); // 4 sec baad band hoga
+    const timer = setTimeout(() => setLoading(false), 4000); 
     return () => clearTimeout(timer);
   }, []);
 
